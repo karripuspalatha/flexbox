@@ -1,0 +1,196 @@
+justify-content property, which aligns items horizontally and accepts the following values
+ 
+1 pond {
+  display: flex;
+justify-content:flex-end;
+}
+
+2 Use justify-content again to help these frogs get to their lilypads. Remember that this CSS property aligns items horizontally and accepts
+
+pond {
+  display: flex;
+justify-content:center;
+}
+
+3 Help all three frogs find their lilypads just by using justify-content. This time, the lilypads have lots of space all around them.
+
+pond {
+  display: flex;
+justify-content:space-around;
+}
+4 justify-content. This time, the lilypads have equal spacing between them.
+
+pond {
+  display: flex;
+justify-content:space-between;
+}
+
+5 Now use align-items to help the frogs get to the bottom of the pond. This CSS property aligns items vertically 
+
+pond {
+  display: flex;
+align-items:flex-end;
+}
+
+6 Lead the frog to the center of the pond using a combination of justify-content and align-items.
+
+
+pond {
+  display: flex;
+justify-content:center;
+align-items:center;
+}
+
+7 combination of justify-content and align-items.
+
+pond {
+  display: flex;
+justify-content:space-around;
+align-items:flex-end;
+}
+
+8 The frogs need to get in the same order as their lilypads using flex-direction.
+
+pond {
+  display: flex;
+flex-direction:row-reverse;
+}
+
+9 Help the frogs find their column of lilypads using flex-direction. 
+
+pond {
+  display: flex;
+flex-direction:column
+}
+
+10 Help the frogs get to their own lilypads. Although they seem close, it will take both flex-direction and justify-content to get them there.
+
+pond {
+  display: flex;
+flex-direction:row-reverse;
+justify-content:start
+}
+
+11 Help the frogs find their lilypads using flex-direction and justify-content.
+
+pond {
+  display: flex;
+flex-direction:column;
+justify-content:flex-end;
+}
+
+12 Help the frogs find their lilypads using flex-direction and justify-content.
+
+pond {
+  display: flex;
+flex-direction:column-reverse;
+justify-content:space-between;
+}
+
+13 Help the frogs find their lilypads using flex-direction, justify-content, and align-items.
+
+pond {
+  display: flex;
+flex-direction:row-reverse;
+justify-content:center;
+align-items:flex-end
+}
+
+14 Use the order property to reorder the frogs according to their lilypads.
+
+pond {
+  display: flex;
+}
+
+.yellow {
+order:1;
+}
+
+15 Use the order property to send the red frog to his lilypad.
+
+pond {
+  display: flex;
+}
+
+.red {
+order:-1;
+}
+
+16 Another property you can apply to individual items is align-self. This property accepts the same values as align-items and its value for the specific item.
+
+pond {
+  display: flex;
+  align-items: flex-start;
+}
+
+.yellow {
+align-self:flex-end;
+}
+
+17 Combine order with align-self to help the frogs to their destinations.
+pond {
+  display: flex;
+  align-items: flex-start;
+}
+
+.yellow {
+order:1;
+align-self:flex-end;
+}
+
+18 Spread them out using the flex-wrap property, which accepts 
+
+pond {
+  display: flex;
+flex-wrap:wrap;
+}
+
+19 Help this army of frogs form three orderly columns using a combination of flex-direction and flex-wrap.
+
+pond {
+  display: flex;
+flex-direction:column;
+flex-wrap:wrap;
+}
+
+20 The two properties flex-direction and flex-wrap
+
+pond {
+  display: flex;
+flex-flow:column wrap;
+}
+
+21 align-content to set how multiple lines are spaced apart 
+
+pond {
+  display: flex;
+  flex-wrap: wrap;
+align-content:flex-start;
+}
+
+22 Now the current has bunched the lilypads at the bottom. Use align-content to guide the frogs there.
+
+pond {
+  display: flex;
+  flex-wrap: wrap;
+align-content:flex-end;
+}
+
+23 The frogs have had a party, but it is time to go home. Use a combination of flex-direction and align-content to get them to their lilypads.
+
+pond {
+  display: flex;
+  flex-wrap: wrap;
+flex-direction:column-reverse;
+align-content:center;
+}
+
+24 Bring the frogs home one last time by using the CSS properties you've learned:
+
+pond {
+  display: flex;
+flex-flow:column-reverse wrap-reverse;
+justify-content:center;
+align-content:space-between;
+alilgin-items:center;
+}
